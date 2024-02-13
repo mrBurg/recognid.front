@@ -1,0 +1,30 @@
+@import '@scss/service';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title,
+.button {
+  text-align: center;
+  color: $white;
+  font-size: 2em;
+}
+
+.button {
+  color: $black;
+  padding: 0.5em;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 0.2em;
+  border: none;
+
+  &:hover {
+    color: $white;
+    background: $gray;
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "frameCustomization": {
+    "borderCornerRadius": "20px",
+    "backgroundColor": "#fff",
+    "borderColor": "#fff"
+  },
+  "overlayCustomization": {
+    "brandingImage": "/liveness-static/facetec/images/logo.svg",
+    "backgroundColor": "#fff"
+  },
+  "guidanceCustomization": {
+    "backgroundColors": "#fff",
+    "foregroundColor": "rgb(65, 127, 178)",
+    "buttonBackgroundNormalColor": "rgb(65, 127, 178)",
+    "buttonBackgroundDisabledColor": "rgba(65, 127, 178, 0.4)",
+    "buttonBackgroundHighlightColor": "rgb(57, 110, 153)",
+    "buttonTextNormalColor": "#fff",
+    "buttonTextDisabledColor": "white",
+    "buttonTextHighlightColor": "#fff",
+    "retryScreenImageBorderColor": "rgb(65, 127, 178)",
+    "retryScreenOvalStrokeColor": "white"
+  },
+  "ovalCustomization": {
+    "strokeColor": "rgb(65, 127, 178)",
+    "progressColor1": "rgba(65, 127, 178, 0.85)",
+    "progressColor2": "rgba(65, 127, 178, 0.85)"
+  },
+  "feedbackCustomization": {
+    "backgroundColor": "rgb(65, 127, 178)",
+    "textColor": "white"
+  },
+  "cancelButtonCustomization": {
+    "customImage": "/liveness-static/facetec/images/FaceTec_cancel.png"
+  },
+  "resultScreenCustomization": {
+    "backgroundColors": "#fff",
+    "foregroundColor": "rgb(65, 127, 178)",
+    "activityIndicatorColor": "rgb(65, 127, 178)",
+    "resultAnimationBackgroundColor": "rgb(65, 127, 178)",
+    "resultAnimationForegroundColor": "#fff",
+    "uploadProgressFillColor": "rgb(65, 127, 178)"
+  },
+  "idScanCustomization": {
+    "selectionScreenBackgroundColors": "#fff",
+    "selectionScreenForegroundColor": "rgb(65, 127, 178)",
+    "reviewScreenBackgroundColors": "#fff",
+    "reviewScreenForegroundColor": "white",
+    "reviewScreenTextBackgroundColor": "rgb(65, 127, 178)",
+    "captureScreenForegroundColor": "#fff",
+    "captureScreenTextBackgroundColor": "rgb(65, 127, 178)",
+    "buttonBackgroundNormalColor": "rgb(65, 127, 178)",
+    "buttonBackgroundDisabledColor": "rgba(65, 127, 178, 0.4)",
+    "buttonBackgroundHighlightColor": "rgb(57, 110, 153)",
+    "buttonTextNormalColor": "#fff",
+    "buttonTextDisabledColor": "white",
+    "buttonTextHighlightColor": "#fff",
+    "captureScreenBackgroundColor": "white",
+    "captureFrameStrokeColor": "rgb(65, 127, 178)"
+  },
+  "initialLoadingAnimationCustomization": {
+    "backgroundColor": "#f3f3f3",
+    "foregroundColor": "rgb(65, 127, 178)"
+  }
+}

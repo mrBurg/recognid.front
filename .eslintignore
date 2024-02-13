@@ -1,0 +1,9 @@
+# /build/*
+# /public/*
+
+# **/*.json
+# **/*.scss
+# **/*.svg
+
+/public/liveness-static/*
+next.config.js

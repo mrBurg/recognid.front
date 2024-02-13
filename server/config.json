@@ -1,0 +1,23 @@
+{
+  "versionIP": "IPv4",
+  "port": {
+    "http": 80,
+    "https": 443,
+    "developmentHttp": 8080,
+    "developmentHttps": 8443
+  },
+  "status": {
+    "ok": 200,
+    "movedPermanently": 301,
+    "temporaryRedirect": 307,
+    "badRequest": 400,
+    "unauthorized": 401,
+    "notFound": 404,
+    "internalServerError": 500
+  },
+  "certificate": {
+    "key": "./certificates/localhost.key",
+    "cert": "./certificates/localhost.cert",
+    "encoding": "utf8"
+  }
+}

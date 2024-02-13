@@ -1,0 +1,78 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "commonjs": true
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@next/next/recommended",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:promise/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "plugins": ["react", "react-hooks", "@typescript-eslint"],
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "@typescript-eslint/no-this-alias": [
+      "error",
+      {
+        "allowDestructuring": false
+        // "allowedNames": ["controller"] // Отключить
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["server/**/*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off"
+      },
+      "globals": {
+        "process": "readonly"
+      }
+    },
+    {
+      "files": ["server/**/*.ts"],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            "argsIgnorePattern": "^_"
+          }
+        ]
+      }
+    },
+    {
+      "files": [
+        "server/utils.ts",
+        "declarations/*",
+        "src/component/Facetec/utils/*",
+        "src/component/Facetec/declarations/*"
+      ],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "off"
+      }
+    }
+    // {
+    //   "files": ["public/**/facetec/resources/*"],
+    //   "rules": {
+    //     "no-constant-condition": "off",
+    //     "no-extra-boolean-cast": "off",
+    //     "no-func-assign": "off",
+    //     "no-cond-assign": "off",
+    //     "@typescript-eslint/no-unused-vars": "off",
+    //     "no-redeclare": "off"
+    //   }
+    // }
+  ]
+}
